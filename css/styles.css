@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background: black;
 }
 
   /* CUSTOMIZE THE NAVBAR
@@ -85,7 +86,7 @@ body {
 }
 
 .carousel .item {
-  background: url("/img/stars.png");
+  background: url("/img/stars.png") center;
   height: 500px;
 }
 
@@ -196,7 +197,7 @@ body {
     height: 500px;
   }
 
-  .logo img, .logo img {
+  .logo img {
     min-width: auto;
     height: auto
   }
@@ -235,11 +236,7 @@ body {
     height: 300px;
   }
 
-  .logo {
-    display: none
-  }
-
-  .logo img, .logo img {
+  .logo img {
     min-width: auto;
     height: auto
   }
