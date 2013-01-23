@@ -211,6 +211,7 @@ body {
     height: auto;
     padding: 0;
   }
+
   .featurette-image.pull-left,
   .featurette-image.pull-right {
     display: block;
@@ -239,6 +240,14 @@ body {
 
   .carousel .item {
     height: 300px;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  #irb {
+    margin-top: 164px;
   }
 
   .logo img {
