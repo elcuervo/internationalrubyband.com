@@ -124,6 +124,11 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 
+.marketing {
+  background: white;
+  padding: 50px
+}
+
 .marketing .span4 {
   text-align: center;
 }
