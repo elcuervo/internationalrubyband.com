@@ -1,3 +1,16 @@
+/* ANIMATIONS */
+@-webkit-keyframes fadein {
+  0% { opacity:0; -webkit-transform:translateY(150px) }
+  50% { opacity:0; -webkit-transform:translateY(150px) }
+  100% { opacity:1; -webkit-transform:translateY(0) }
+}
+
+@-moz-keyframes fadein {
+  0% { opacity:0; -webkit-transform:translateY(150px) }
+  50% { opacity:0; -webkit-transform:translateY(150px) }
+  100% { opacity:1; -webkit-transform:translateY(0) }
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -120,6 +133,8 @@ body {
 }
 
 #people {
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s
   width: 390px;
   margin-left: 20px
 }
