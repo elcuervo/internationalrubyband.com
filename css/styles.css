@@ -50,6 +50,12 @@ body {
   margin-top: 10px;
 }
 
+.attention {
+  background: #fffed4;
+  padding: 20px
+}
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
